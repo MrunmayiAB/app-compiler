@@ -1,0 +1,21 @@
+id,type,prompt,success,latency_seconds,issues_found,repaired,retries,error
+1,normal,"Build a CRM with login, contacts, dashboard, role-based access, and premium plan",True,73.75,1,True,0,
+2,normal,"Create an e-commerce store with product listings, shopping cart, checkout with p",True,105.43,2,True,0,
+3,normal,"Build a blog platform where authors can write posts, readers can comment, and ad",True,55.22,0,False,0,
+4,normal,"Create a project management tool like Trello with boards, cards, team members, a",True,60.32,0,False,0,
+5,normal,"Build a food delivery app with restaurants, menus, orders, delivery tracking, an",True,113.47,1,True,0,
+6,normal,"Create a hotel booking system with room listings, reservations, payments, and re",False,27.06,0,False,1,"429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please "
+7,normal,Build a learning management system where teachers create courses and students en,False,0.19,0,False,1,"429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please "
+8,normal,"Create a healthcare appointment booking app with doctors, patients, scheduling, ",False,0.21,0,False,1,"429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please "
+9,normal,"Build a social media platform with posts, followers, likes, comments, and direct",False,0.32,0,False,1,"429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please "
+10,normal,"Create a gym management system with memberships, class schedules, trainers, and ",False,0.2,0,False,1,"429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please "
+11,vague,Build me an app for my business.,False,0.19,0,False,1,"429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please "
+12,vague,I need a website.,False,0.21,0,False,1,"429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please "
+13,conflicting,Build an app where all users are admins but only admins have special access and ,False,0.36,0,False,1,"429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please "
+14,conflicting,Create a free app with premium features where everything is free but users must ,False,0.17,0,False,1,"429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please "
+15,incomplete,Build a marketplace.,False,0.19,0,False,1,"429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please "
+16,incomplete,Create a booking system with payments.,False,0.37,0,False,1,"429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please "
+17,complex,Build a multi-tenant SaaS platform where each company gets their own isolated wo,False,0.22,0,False,1,"429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please "
+18,complex,"Create an AI-powered recruiting platform with job postings, applicant tracking, ",False,0.24,0,False,1,"429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please "
+19,ambiguous,Build something like Airbnb but for cars and also for experiences and maybe hote,False,0.34,0,False,1,"429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please "
+20,ambiguous,Create an app where people can share things and other people can see them and in,False,0.21,0,False,1,"429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please "
